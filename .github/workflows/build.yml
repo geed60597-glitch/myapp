@@ -20,7 +20,7 @@ jobs:
 
       - name: Unzip Project File
         run: |
-        unzip -o "MultiCloneApp_Project.zip"
+            unzip -o "MultiCloneApp_Project.zip"
 
       - name: Install Dependencies and Buildozer
         run: |
